@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loader Using JavaScript</title>
+    <link rel="stylesheet" href="Ass-16.css">
+    <script>
+        function loading(){
+            document.body.style.overflow="auto";
+            var animation= document.getElementsByClassName('animation');
+            animation[0].style.display='none';
+            var main=document.getElementsByClassName('main');
+            main[0].style.display='block';
+            // main[0].style.animation='mainAnim linear 0.5s'
+        }
+    </script>
+</head>
+<body onload="setTimeout(loading,3000)">
+    <!-- Loader Animation Section -->
+    <div class="animation">
+        <div class="loader">
+            
+        </div>
+        <p>Loading..</p>
+    </div>
+
+    <!-- Main Section -->
+    <div class="main">
+        <div class="navbar">
+            <img src="images/youtube.png">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#music">Music</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#games">Games</a></li>
+                <li><a href="#movies">Movies</a></li>
+            </ul>
+            <div class="sign">
+                <a href="#">S</a>
+            </div>
+        </div>
+        
+        <div class="sections" id="home">
+            <!-- <img src="bg-img.png"> -->
+        </div> 
+
+        <div class="container" id="music">
+            <h1> MUSIC </h1>
+            <div class="cards">
+                <div class="images">
+                    <img src="bg-img.png">
+                </div>
+
+                <div class="images">
+                    <img src="bg-img.png">
+                </div>
+
+                <div class="images">
+                    <img src="bg-img.png">
+                </div>
+
+                <div class="images">
+                    <img src="bg-img.png">
+                </div>
+
+                <div class="images">
+                    <img src="bg-img.png">
+                </div>
+
+                <div class="images">
+                    <img src="bg-img.png">
+                </div>
+
+                <div class="images">
+                    <img src="bg-img.png">
+                </div>
+
+                <div class="images">
+                    <img src="bg-img.png">
+                </div>
+
+                <div class="images">
+                    <img src="bg-img.png">
+                </div>
+
+                <div class="images">
+                    <img src="bg-img.png">
+                </div>
+
+                <div class="images">
+                    <img src="bg-img.png">
+                </div>
+
+                <div class="images">
+                    <img src="bg-img.png">
+                </div>
+
+                <div class="images">
+                    <img src="bg-img.png">
+                </div>
+
+                <div class="images">
+                    <img src="bg-img.png">
+                </div>
+
+                <div class="images">
+                    <img src="bg-img.png">
+                </div>
+
+            </div>
+
+           
+            
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
